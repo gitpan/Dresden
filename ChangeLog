@@ -1,5 +1,11 @@
-2005-01-06  Steffen Schwigon  <schwigon@webit.de>
+2005-01-15  Steffen Schwigon  <schwigon@cpan.org>
 
-	* initial version
+	* 0.02
+
+	* bugfixes in pod documentation
+
+2005-01-06  Steffen Schwigon  <schwigon@cpan.org>
+
+	* initial version 0.01
 
 	* an empty Module::Build based framework for exemplarily usage

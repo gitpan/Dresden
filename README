@@ -8,9 +8,9 @@ ABOUT
   This project is an educational collecting tank for any functions
   and/or experiments we (the Dresden Perl Mongers) need a place for.
 
-  Version 0.01, for instance, is an empty project, simply demonstrating
+  Version 0.02, for instance, is an empty project, simply demonstrating
   the construction of a CPAN distribution. If you ever need a skeleton,
-  Dresden version 0.01 is for you.
+  Dresden version 0.02 is for you.
 
   There are future plans, anyway, to make it a useful module, e.g., it
   will provide information about Dresden Perl Mongers, either in a static

@@ -1,8 +1,8 @@
 =pod
 
-=head1 NAME Dresden::TestHelper
+=head1 NAME
 
-Utility functions used in Tests.
+Dresden::TestHelper - Utility functions used in Tests.
 
 =head1 extends L<Exporter|Exporter>
 
@@ -10,7 +10,14 @@ Z<>
 
 =head1 SYNOPSIS
 
-my $obj = new Dresden::TestHelper ({paramhashref});
+  use Dresden;
+  use Dresden::TestHelper qw(:test);
+  BEGIN { $| = 1; print "1..1\n"; }
+  Dresden::hello() =~ /Hello world/
+   ? ok     ("hello")
+   : not_ok ("hello");
+
+See t/*.t files in this distribution.
 
 =head1 Methods
 
@@ -21,9 +28,5 @@ Return ok, as needed in testing.
 =head2 not_ok ('comment);
 
 Return not_ok, as needed in testing.
-
-=head1 AUTHOR
-
-Written 2002 by Steffen Schwigon <schwigon@webit.de>.
 
 =cut
