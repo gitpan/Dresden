@@ -1,0 +1,29 @@
+=pod
+
+=head1 NAME Dresden::TestHelper
+
+Utility functions used in Tests.
+
+=head1 extends L<Exporter|Exporter>
+
+Z<>
+
+=head1 SYNOPSIS
+
+my $obj = new Dresden::TestHelper ({paramhashref});
+
+=head1 Methods
+
+=head2 ok ('comment);
+
+Return ok, as needed in testing.
+
+=head2 not_ok ('comment);
+
+Return not_ok, as needed in testing.
+
+=head1 AUTHOR
+
+Written 2002 by Steffen Schwigon <schwigon@webit.de>.
+
+=cut

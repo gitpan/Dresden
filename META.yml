@@ -1,0 +1,16 @@
+--- #YAML:1.0
+name: Dresden
+version: 0.01
+author:
+  - ~
+abstract: ~
+license: perl
+requires:
+  perl: 5.6.1
+provides:
+  Dresden:
+    file: lib/Dresden.pm
+    version: 0.01
+  Dresden::TestHelper:
+    file: lib/Dresden/TestHelper.pm
+generated_by: Module::Build version 0.23

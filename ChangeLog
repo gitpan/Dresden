@@ -1,0 +1,5 @@
+2005-01-06  Steffen Schwigon  <schwigon@webit.de>
+
+	* initial version
+
+	* an empty Module::Build based framework for exemplarily usage
