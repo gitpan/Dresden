@@ -3,6 +3,8 @@ ChangeLog
 INSTALL
 lib/Dresden.pm
 lib/Dresden.pod
+lib/Dresden/Convert/TWiki.pm
+lib/Dresden/Convert/TWiki.pod
 lib/Dresden/TestHelper.pm
 lib/Dresden/TestHelper.pod
 LICENSE
@@ -10,4 +12,13 @@ Makefile.PL
 MANIFEST			This list of files
 META.yml
 README
+t/convert_twiki.t
 t/dresden.t
+t/get_next_meeting_date.t
+t/README
+t/TageBuch.xml
+t/target_twikipage.txt
+t/TermineTreffen.htm
+t/TermineTreffen.xml
+t/TermineTreffen_rawrss.xml
+t/vqwikipage.txt

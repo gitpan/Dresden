@@ -1,3 +1,15 @@
+2005-02-20  Steffen Schwigon  <schwigon@cpan.org>
+
+	* 0.03
+
+	* Dresden::Convert::TWiki - Converter from foreign wiki syntax
+	(VQWiki) to TWiki syntax. I didn't want to add yet another trivial
+	wiki module into CPAN universe. Maybe later, if it's less trivial,
+	I make it an own module or integrate it into an existing CPAN wiki
+	module (which one? they all look incomplete. Convert::Wiki?
+	Wiki::Gateway?).
+	 
+
 2005-01-15  Steffen Schwigon  <schwigon@cpan.org>
 
 	* 0.02

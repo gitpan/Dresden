@@ -1,16 +1,20 @@
 --- #YAML:1.0
 name: Dresden
-version: 0.02
-author:
-  - ~
+version: 0.03
+author: ~
 abstract: ~
 license: perl
 requires:
+  XML::Simple: 0
   perl: 5.6.1
+build_requires:
+  Text::Diff: 0
 provides:
   Dresden:
     file: lib/Dresden.pm
-    version: 0.02
+    version: 0.03
+  Dresden::Convert::TWiki:
+    file: lib/Dresden/Convert/TWiki.pm
   Dresden::TestHelper:
     file: lib/Dresden/TestHelper.pm
-generated_by: Module::Build version 0.23
+generated_by: Module::Build version 0.25
